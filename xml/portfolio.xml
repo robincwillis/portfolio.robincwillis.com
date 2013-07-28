@@ -1,14 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="portfolio.xsl"?>
 <portfolio>
-	<!-- 75: KMDW SITE !!!-->
-	<project name="KMDW Homepage" index="75" display="off" thumb="media/75/thumb/thumb_image01.jpg">
-		
+	<!-- 77: SUNGLASS MOBILE !!!-->
+	<project name="Sunglass Mobile" index="77" display="on" thumb="media/77/thumb/thumb_image01.jpg">
+		<title>Sunglass iOS</title>
+		<medium>Mobile Application</medium>
+		<dimensions>iPhone iPad</dimensions>
+		<date>Dec 2012</date>
+		<description>The mobile companion application for Sunglass, allowing people to download, navigate, add annotations, photos and comments on 3d models. This application features a 3d gestural navigation from which one can pan, zoom, and orbit with the tap or drag of their finger. Review and markup models with notes and comments, add images from the device or camera and take snapshots of models and save them to its project. Stay up to date with instant notifications about any changes made to your projects and invite contacts to collaborate in real-time.</description>
+		<links>
+			<link url="https://itunes.apple.com/us/app/sunglass-3d/id586433344?mt=8">iTunes</link>
+		</links>
+		<web>
+			<media>
+				<gal index="1" width="667" height="500">media/77/web_image01.png</gal>
+				<gal index="2" width="667" height="500">media/77/web_image02.png</gal>
+				<gal index="3" width="667" height="500">media/77/web_image03.png</gal>
+				<gal index="4" width="667" height="500">media/77/web_image04.png</gal>
+			</media>
+			<navigation>
+				<nav index="1">media/77/nav/nav_image01.jpg</nav>
+				<nav index="2">media/77/nav/nav_image02.jpg</nav>
+				<nav index="3">media/77/nav/nav_image03.jpg</nav>
+				<nav index="4">media/77/nav/nav_image04.jpg</nav>
+			</navigation>
+			<tags>
+				<tag>Web Design</tag>
+				<tag>Programming</tag>
+			</tags>
+		</web>
+	</project>
+
+	<!-- 76: KMDW CELL FUNEN !!!-->
+	<project name="Cell Funen" index="76" display="off" thumb="media/76/thumb/thumb_image01.jpg">
+		<title>Cell Funen</title>
+		<medium>Prototype Tower Design</medium>
+		<dimensions></dimensions>
+		<date>Mar 2012</date>
+		<description></description>		
+	</project>
+
+	<!-- 75: KMDW HOMEPAGE !!!-->
+	<project name="KMDW Homepage" index="75" display="on" thumb="media/75/thumb/thumb_image01.jpg">
+		<title>KMDW Portfolio</title>
+		<medium>Website</medium>
+		<dimensions>On Screen</dimensions>
+		<date>Jan 2012</date>
+		<description>The portfolio website and homepage for the Japanese architectural firm, KMDW. The site emphasizes the diversity of projects in terms of scale, location and program and allows people to navigate projects by filtering them according to these criteria. The navigation and information design is subtle and sits back allowing the images of projects to tell the story. The portfolio is also organized into major concepts which the firm addresses in every project and allows one to move in between viewing different aspects of projects which embody that embody key concepts and the projects in entirety.</description>
+		<links>
+			<link url="http://kmdw.com">KMDW</link>
+		</links>
+		<web>
+			<media>
+				<gal index="1" width="635" height="500">media/75/web_image01.jpg</gal>
+				<gal index="2" width="635" height="500">media/75/web_image02.jpg</gal>
+				<gal index="3" width="635" height="500">media/75/web_image03.jpg</gal>
+				<gal index="4" width="635" height="500">media/75/web_image04.jpg</gal>
+				<gal index="5" width="635" height="500">media/75/web_image05.jpg</gal>
+				<gal index="6" width="635" height="500">media/75/web_image06.jpg</gal>
+			</media>
+			<navigation>
+				<nav index="1">media/75/nav/nav_image01.jpg</nav>
+				<nav index="2">media/75/nav/nav_image02.jpg</nav>
+				<nav index="3">media/75/nav/nav_image03.jpg</nav>
+				<nav index="4">media/75/nav/nav_image04.jpg</nav>
+				<nav index="5">media/75/nav/nav_image05.jpg</nav>
+				<nav index="6">media/75/nav/nav_image06.jpg</nav>
+			</navigation>
+			<tags>
+				<tag>Web Design</tag>
+				<tag>Programming</tag>
+			</tags>
+		</web>
 	</project>
 
 	<!-- 74: SEIYU !!!-->
-	<project name="Seiyu" index="74" display="off" thumb="media/74/thumb/thumb_image01.jpg">
-		
+	<project name="Seiyu" index="74" display="on" thumb="media/74/thumb/thumb_image01.jpg">
+		<title>Seiyu</title>
+		<medium>Retail design prototype</medium>
+		<dimensions>Various locations in Japan</dimensions>
+		<date>June 2011</date>
+		<description>A design prototype that to be applied to a number of shopping centers slated for renovation/rebranding owned by a major Japanese retail chain. The scope of the prototype extended across shelving and interior design, wayfinding, branding and graphics proposals, product placement and corresponding marketing campaigns. Furthermore it required developing organizational, circulation and informational logics that could be configured to address to the unique spatial conditions of any store.</description>
+		<web>
+			<media>
+				<gal index="1" width="750" height="500">media/74/web_image01.jpg</gal>
+				<gal index="2" width="824" height="500">media/74/web_image02.jpg</gal>
+				<gal index="3" width="824" height="500">media/74/web_image03.jpg</gal>
+				<gal index="4" width="824" height="500">media/74/web_image04.jpg</gal>
+				<gal index="5" width="500" height="500">media/74/web_image05.jpg</gal>
+			</media>
+			<navigation>
+				<nav index="1">media/74/nav/nav_image01.jpg</nav>
+				<nav index="2">media/74/nav/nav_image02.jpg</nav>
+				<nav index="3">media/74/nav/nav_image03.jpg</nav>
+				<nav index="4">media/74/nav/nav_image04.jpg</nav>
+				<nav index="5">media/74/nav/nav_image05.jpg</nav>
+			</navigation>
+			<tags>
+				<tag>Architecture</tag>
+				<tag>Graphic Design</tag>
+				<tag>Graphic Design</tag>
+			</tags>
+			
+		</web>
 	</project>
 
 	<!-- 73: CODE SITE !!!-->
@@ -46,7 +140,11 @@
 
 	<!-- 72: SUNGLASS !!!-->
 	<project name="Sunglass" index="72" display="off" thumb="media/72/thumb/thumb_image01.jpg">
-		
+		<title>Sunglass</title>
+		<medium>Web Application</medium>
+		<dimensions>On Screen</dimensions>
+		<date>May 2012</date>
+		<description></description>		
 	</project>
 
 	<!-- 71: GERMANIA !!!-->
@@ -80,7 +178,7 @@
 	<!-- 70: THESIS !!!-->
 	<project name="Thesis" index="70" display="on" thumb="media/70/thumb/thumb_image01.jpg">
 		<title>Featherweights</title>
-		<medium>Design Protocol and Interim Use</medium>
+		<medium>Design Protocol for Interim Use</medium>
 		<dimensions>Boston, Massachusetts</dimensions>
 		<date>Dec 2010</date>
 		<description>Thesis for the Degree of Master of Architecture at MIT that examines vacant urban parcels that are either unviable for development or stalled as a result of the economic crisis, and asks: How is it possible to generate both economic and urban value on these sites until they are ready to be developed? Reluctant to invest in these areas developers resort to a wait-and-hold strategy leaving parcels vacant until the market is suitable for development. For these parcels, the conventional architectural process is stalled because the time and investment needed for design and construction outweighs the expected return on the development. This condition occurs throughout all major cities in the United States and is becoming more prevalent as the frequency of urban utilization cycles increases. 
@@ -1314,7 +1412,7 @@ The building provides flexibility for future development on top of it by providi
 		</web>
 	</project>
 	<!-- 24: KUNST HISTORY -->
-	<project name="Kunst History" index="24" display="on" thumb="media/24/thumb/thumb_image01.jpg">
+	<project name="Kunst History" index="24" display="off" thumb="media/24/thumb/thumb_image01.jpg">
 		<title>Kunst History</title>
 		<medium>Web</medium>
 		<dimensions>On Screen</dimensions>
@@ -1480,7 +1578,7 @@ The building provides flexibility for future development on top of it by providi
 		</web>
 	</project>
 	<!-- 18: TIMELINE -->
-	<project name="Timeline" index="18" display="on" thumb="media/18/thumb/thumb_image01.jpg">
+	<project name="Timeline" index="18" display="off" thumb="media/18/thumb/thumb_image01.jpg">
 		<title>Timeline</title>
 		<medium>Processing Application / Interface</medium>
 		<dimensions>On Screen</dimensions>
