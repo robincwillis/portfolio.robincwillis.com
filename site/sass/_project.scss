@@ -1,0 +1,59 @@
+#project-container{
+	background-color:#efefef;
+	width:100%;
+}
+
+.close{
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: 100;
+	opacity: .65;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.close:hover{
+	opacity: 1;
+}
+
+.label{
+    font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    text-transform: lowercase;
+    text-shadow: none;
+  }
+
+#about-project{
+	font-family: "crimson_textitalic", 'Times New Roman', Times, serif;
+	font-size: 20px;
+
+}
+#about-project li{
+		line-height: 25px;
+}
+
+/* project links */
+
+#project-links{
+	margin-top:30px;
+}
+
+#project-links li{
+	height:50px;
+}
+
+#project-links li a{
+	color:#000;
+	text-transform: uppercase;
+	font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size: 12px;
+	text-shadow: none;
+	padding: 10px 15px 10px;
+	text-decoration: none;
+	border-radius: 3px;
+	background-color: rgba(0,0,0,0.2);
+}
+
+#project-links>li>a:hover {
+	color: #fff;
+	background-color: rgba(0,0,0,0.5);
+	text-shadow: none;
+}

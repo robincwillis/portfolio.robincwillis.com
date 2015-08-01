@@ -1,0 +1,29 @@
+#tag-list{
+	margin-bottom:20px;
+}
+
+#tag-list li{
+	font-size: 20px;
+	height:30px;
+	line-height: 30px;
+}
+
+#tag-list a.tag{
+	color: #555;
+	text-decoration: none;
+	padding-top:5px;
+	border-top: 0 solid transparent;
+}
+
+#tag-list a.tag:hover{
+	color: #000;
+	border-top: 4px solid #000;
+	text-decoration: none;
+	height:30px;
+	line-height: 30px;
+}
+
+#tag-list a.selected {
+	border-top: 4px solid #999;
+}
+

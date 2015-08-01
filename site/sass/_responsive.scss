@@ -1,0 +1,113 @@
+/* responsive */
+
+    @media (min-width: 979px){
+	    body {
+	        padding-top: 50px;
+	        padding-bottom: 0;
+	    }
+        .navbar-fixed-top {
+            background-color:#fff;
+            top: 0;
+            padding-top:50px;
+        }
+        .thumbnail-item{
+            height:135px;
+        }
+         .container-fluid{
+            margin-left:25px;
+            margin-right:25px;
+        }
+    }
+
+	@media (max-width: 979px){
+        
+    	.navbar-fixed-top {
+    		margin-bottom: 0;
+    	}
+    	.navbar .brand {
+        	padding-right: 10px;
+        	padding-left: 0;
+        	margin-left: -5px;
+    	}
+
+        .thumbnail-item{
+            height: 99px;
+        }
+	}
+
+    @media (max-width: 767px){
+        .navbar .brand {
+    		margin-left: 15px;
+    	}
+    	body{
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0;
+            margin-right: 0;
+        }
+         .container-fluid{
+            margin-left:25px;
+            margin-right:25px;
+        }
+        .thumbnail-item{
+            height:140px;
+        }
+    }
+
+    /* iPhone 5 */
+@media screen and (device-aspect-ratio: 40/71) {
+  
+}
+
+/* Smartphones (landscape) */
+@media only screen and (min-width : 321px) and (device-aspect-ratio: 2/3) and (orientation : landscape)  {
+
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    body{
+
+        margin:0;
+        padding:0;
+    }
+    #tag-list{
+        text-align: center;
+    }
+    #tag-list li{
+        font-size: 14px;
+        height:20px;
+        line-height: 20px;
+    }
+     .container-fluid{
+            margin-left:10px;
+            margin-right:10px;
+        }
+
+    .thumbnail-item{
+        height:60px;
+    }
+    #project-container{
+        overflow: hidden;
+    }
+    #frame{
+
+        margin:0;
+        padding:0;
+        margin-left:-10px;
+        margin-right:-10px;
+    }
+
+    #nav-menu{
+        display:none;
+    }
+
+    #wrapper{
+        height:320px;
+        margin:0;
+        padding:0;
+    }
+
+}
+

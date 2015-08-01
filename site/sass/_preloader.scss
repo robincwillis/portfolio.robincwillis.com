@@ -1,0 +1,49 @@
+/* preloader */
+
+.preloader-container{
+	position: absolute;
+	top:0;
+	left:50%;
+	width:100px;
+	height:100%;
+	margin-top:-30px;
+	margin-left: -50px;
+}
+
+.preloader{
+	position: absolute;
+	top:0;
+	left:0;
+	height:30px;
+	width:100px;
+	background-color: #fff;
+	border: 1px solid #000;
+
+}
+
+.progress-bar{
+	position: absolute;
+	left: 0;
+	top:0;
+	height:100%;
+	width:0;
+	background-color: #000;
+}
+
+.load-in{
+	margin-top: -15px;
+	transform:translate3d(0,50%,0);
+    -webkit-transform:translate3d(0,50%,0);
+    -moz-transform:translate3d(0,50%,0);
+    -o-transform: translate(0,50%);
+    -ms-transform: translate(0,50%);
+}
+
+.load-out{
+	margin-top: 30px;
+	transform:translate3d(0,100%,0);
+    -webkit-transform:translate3d(0,100%,0);
+    -moz-transform:translate3d(0,100%,0);
+    -o-transform: translate(0,100%);
+    -ms-transform: translate(0,100%);
+}

@@ -1,0 +1,50 @@
+/* header */
+
+.navbar-fixed-top {	top: 50px;}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+	color:#000;
+	background-color: transparent;
+	border-radius: 0;
+	box-shadow: none;
+	border:none;
+	background-image:none;
+	margin-bottom: 0px;
+}
+
+.navbar .brand {
+    font-family: "montserratbold", 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	color:#000;
+	text-shadow: none;
+	font-size: 16px;
+	margin-left:0;
+	padding:10px 20px 10px 0;
+}
+
+.navbar .nav{
+	margin: 0;
+}
+
+.navbar .btn-navbar {
+	background-color: transparent;
+	background-image: none;
+	border:none;
+	box-shadow: none;
+}
+
+.navbar .btn-navbar .icon-bar {
+	box-shadow: none;
+	background-color: #000;
+}
+
+.navbar .nav>li>a {
+	color: #000;
+	font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+	font-size:12px;
+	text-shadow: none;
+}
+
+.navbar .nav>li>a:hover {
+	background-color: rgba(0,0,0,0.1);
+	border-radius: 3px;
+}

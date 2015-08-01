@@ -1,0 +1,46 @@
+@import "../fonts/stylesheet.css";
+
+/* global */
+
+body{
+    margin-top:50px;
+    font-family: 'crimson_textroman', 'Times New Roman', Times, serif;
+    font-size:18px;
+    line-height: 24px;
+}
+
+h1, h2, h3{
+  color:#000;
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  text-transform: uppercase;
+}
+
+h1, h2, h3{
+
+  color:#000;
+  font-family: 'montserratregular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  text-transform: uppercase;
+}
+
+hr{
+    margin: 0 0 20px 0;
+    border: 0;
+    border-top: 1px solid #000;
+    border-bottom: none;
+}
+
+.center {text-align: center;}
+
+.trans{
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  -ms-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+} 
+
+.shadow{
+  -moz-box-shadow: inset 0 0 0 3px #fff;
+  -webkit-box-shadow: inset 0 0 0 3px #fff;
+  box-shadow: inset 0 0 0 3px #fff;
+}

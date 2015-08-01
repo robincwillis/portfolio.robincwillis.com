@@ -1,0 +1,44 @@
+
+<div class="row-fluid">
+  <button type="button" class="close" aria-hidden="true">&times;</button>
+</div>
+<div class="row-fluid">
+    <div class="span12">
+          <div id="frame">
+          
+              <div id="wrapper">
+                  <div id="nav-menu">
+                    <ul id="nav">
+                    </ul>
+                  </div>
+              </div>
+          </div>
+
+    </div>
+
+    <div class="span12">
+        <h2>{{title}}</h2>
+        <ul class="unstyled" id="about-project">
+          <li>{{date}}</li>
+          <li>{{medium}}</li>
+          <li>{{dimensions}}</li>
+        </ul>
+        <ul class="unstyled inline">
+          {{#each web.tags.tag}}
+
+            <li><span class="label">{{this}}</span></li>
+
+          {{else}}
+                        <li><span class="label">{{web.tags.tag}}</span></li>
+
+          {{/each}}
+
+        </ul>
+        <p>{{description}}</p>
+        {{#if web.links.link}}
+        <ul class="unstyled center" id="project-links">
+          <li><a href="{{web.links.link.url}}" class="trans" target="_blank">{{web.links.link}}</a></li>
+        </ul>
+        {{/if}}
+    </div>
+</div>
